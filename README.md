@@ -1,10 +1,10 @@
 # theliveryTeste
 Repositório com uma pagina WEB, utilizando HTML,CSS E JAVASCRIPT
 
-## FRAMEWORKS
+### FRAMEWORKS
   bootstrap 4
 
-## Organização de Projeto
+### Organização de Projeto
   4 espaços de identação, sem tabulação
 
 **/src**
