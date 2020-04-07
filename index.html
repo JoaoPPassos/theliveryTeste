@@ -4,8 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>theLivery</title>
+    <!--importação css Bootstrap4-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/indexCSS.css">
 </head>
 <body>
-    
+    <section id = "Apresentacao" class="container-bg-diagonal w-100">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="tema" class="col-sm">
+                    <img id="logo" src="src/images/logoThelivery.png" class="img-fluid rounded mx-auto d-block">
+                    <h3>
+                        Nós <b>valorizamos</b> seu dinheiro
+                    </h3>
+                    <h5>
+                        Peça no <b>TheLivery</b> e receba dinheiro de volta
+                    </h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <img id="smartphone"src="src/images/smartphone.png" class="img-fluid float-right rounded mx-auto d-block" onclick="cashbackExemple()">
+                </div>
+                <div class="col-sm">
+                    <div class="row">
+                        <img id="setaCompra" src="src/images/seta.png" class="img-fluid rounded mx-auto d-block">
+                    </div>
+                    <div class="row">
+                        <img id="setaRetorno" src="src/images/seta.png" class="img-fluid rounded mx-auto d-block">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <img src="src/images/carteira.png" class="img-fluid float-left rounded mx-auto d-block">
+                </div>
+            </div>
+        </div>
+        <div id="animacaoCashBack" class="row">
+            <div class="col-sm">
+                <img id="carteira" class="float-right" src="src/images/carteira.png">
+            </div>
+            <div class="col-sm">
+                <img id="cifrao" src="src/images/CifraoImage.png">
+            </div>
+            <div class="col-sm">
+                <img id="restaurante" src="src/images/carteira.png">
+            </div>
+        </div>
+    </section>
+
+    <!--importação script próprio-->
+    <script src="src/scripts/script.js"></script>
+    <!--importação scripts Bootstrap4-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

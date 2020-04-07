@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/background.png);
+    background-position: initial;
+    background-size: 100% 105%;
+    background-repeat: no-repeat;
+}
+
+#Apresentacao > div{
+    height: 100%;
+    width: 100%;
+}
+
+#tema{
+    text-align: center;
+}
+
+b{
+    color: #8e091c;
+}
+
+#carteira{
+    opacity: 0%;
+}
+#cifrao{
+    opacity: 0%;
+}
+#restaurante{
+    opacity: 0%;
+}
+
+#Apresentacao{
+    height: 100%;
+}
+
+#setaCompra{
+    animation-duration: 2.3s;
+    animation-name: animationSetaCompra; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#setaRetorno{
+    animation-duration: 2.3s;
+    animation-name: animationSetaRetorno; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animationSetaCompra{
+    from{ 
+        transform: rotateZ(20deg) translateX(-40px);
+    }
+    to{
+        transform: rotateZ(40deg) translateX(40px);
+    }
+}
+
+
+@keyframes animationSetaRetorno{
+    from{ 
+        transform: rotateZ(200deg) translateX(-40px);
+    }
+    to{
+        transform: rotateZ(220deg) translateX(40px);
+    }
+}
