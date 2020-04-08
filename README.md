@@ -1,6 +1,8 @@
 # theliveryTeste
 Repositório com uma pagina WEB, utilizando HTML,CSS E JAVASCRIPT
 
+Para acessar a pagina: JoaoPPassos.github.io/theliveryTeste
+
 ### FRAMEWORKS
   bootstrap 4
 
