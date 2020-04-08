@@ -45,6 +45,10 @@ b{
     animation-direction: alternate;
 }
 
+#smartphone{
+    cursor:  pointer;
+}
+
 /*Animação Apresentação*/
 
 @keyframes animationSetaCompra{
