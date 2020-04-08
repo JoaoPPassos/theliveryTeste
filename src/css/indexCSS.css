@@ -1,3 +1,4 @@
+/*Elementos gerais*/
 *{
     margin: 0;
     padding: 0;
@@ -9,37 +10,21 @@ body{
     background-position: initial;
     background-size: 100% 105%;
     background-repeat: no-repeat;
-}
-
-#Apresentacao > div{
-    height: 100%;
-    width: 100%;
-}
-
-#tema{
-    text-align: center;
+    height: 100vh;
 }
 
 b{
     color: #8e091c;
 }
 
-#carteira{
-    visibility: hidden;
-    width: 70px;
-    height: 70px;
+/*Elementos na Apresentação*/
+
+#Apresentacao > div{
+    width: 100%;
 }
-#cifrao{
-    visibility: hidden;
-    margin-top: 4%;
-    width: 80px;
-    width: 80px;
-}
-#carteira_restaurante{
-    visibility: hidden;
-    margin-left: 8%;
-    width: 70px;
-    height: 70px;
+
+#tema{
+    text-align: center;
 }
 
 #Apresentacao{
@@ -60,6 +45,8 @@ b{
     animation-direction: alternate;
 }
 
+/*Animação Apresentação*/
+
 @keyframes animationSetaCompra{
     from{ 
         transform: rotateZ(20deg) translateX(-40px);
@@ -78,3 +65,38 @@ b{
         transform: rotateZ(220deg) translateX(40px);
     }
 }
+
+/*Elementos Animação Cashback*/
+#animacaoCashBack {
+    position: absolute;
+    bottom: 10px;
+}
+#carteira{
+    visibility: hidden;
+    margin-top: 8%;
+    width: 70px;
+    height: 70px;
+}
+
+#cifrao{
+    visibility: hidden;
+    margin-top: 8%;
+    width: 70px;
+    height: 70px;
+}
+
+
+
+#carteira_restaurante{
+    visibility: hidden;
+    margin-top: 8%;
+    margin-left: 8%;
+    width: 70px;
+    height: 70px;
+}
+
+
+
+
+
+
