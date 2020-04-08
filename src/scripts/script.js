@@ -1,6 +1,6 @@
 var cart = document.getElementById("carteira");
 var cifrao = document.getElementById("cifrao");
-var restaurante = document.getElementById("restaurante");
+var restaurante = document.getElementById("carteira_restaurante");
 
 
 function cashbackExemple(){
@@ -10,7 +10,7 @@ function cashbackExemple(){
 }
 
 function cifraAnimation(){
-    cifrao.style.opacity = "100%";
+    cifrao.style.visibility = "visible";
     cifrao.animate([{transform: 'translateX(0px)'},
     {transform: 'translateX(400px)'}],{
     duration:2000,
@@ -20,21 +20,21 @@ function cifraAnimation(){
 }
 
 function cartAnimation(){
-    cart.style.opacity = "100%";
+    cart.style.visibility = "visible";
     cart.style.marginLeft = "50%";
     cart.animate([{transform: 'translateY(0px)'},
     {transform: 'translateY(10px)'}],{
-    duration:1500,
+    duration:800,
     iterations: Infinity,
     direction:"alternate"
     });
 }
 
 function restauranteAnimation(){
-    restaurante.style.opacity = "100%";
+    restaurante.style.visibility = "visible";
     restaurante.animate([{transform: 'translateY(0px)'},
     {transform: 'translateY(10px)'}],{
-    duration:1500,
+    duration:800,
     iterations: Infinity,
     direction:"alternate"
     })

@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(../images/background.png);
+    background-image: url(../images/layout/background.png);
     background-position: initial;
     background-size: 100% 105%;
     background-repeat: no-repeat;
@@ -25,13 +25,21 @@ b{
 }
 
 #carteira{
-    opacity: 0%;
+    visibility: hidden;
+    width: 70px;
+    height: 70px;
 }
 #cifrao{
-    opacity: 0%;
+    visibility: hidden;
+    margin-top: 4%;
+    width: 80px;
+    width: 80px;
 }
-#restaurante{
-    opacity: 0%;
+#carteira_restaurante{
+    visibility: hidden;
+    margin-left: 8%;
+    width: 70px;
+    height: 70px;
 }
 
 #Apresentacao{
